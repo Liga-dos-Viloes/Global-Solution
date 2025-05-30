@@ -4,6 +4,8 @@
 
 .nav-container {
     background-color: #ffffff;
+    position: fixed;
+    /* z-index: 1000; */
     /* background-color: transparent;  */
     width: 100%;
     padding: 0.2em 3em;

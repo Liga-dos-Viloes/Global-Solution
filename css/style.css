@@ -6,5 +6,61 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: "Cascadia Mono", sans-serif;
+
 }
 
+main {
+    height: 100vh;
+    display: flex;
+}
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #1f1f1f;
+    /* margin-bottom: 0.5em; */
+    text-align: start;
+}
+#h2{
+    text-align: end;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    padding: 3em 5em;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+header img{
+    align-self: center;
+    width: 30em;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* justify-content: space-around; */
+    padding: 1em;
+    height: 100vh;
+}
+aside a {
+    text-decoration: none;
+    color: #1f1f1f;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+aside a:hover {
+    opacity: 1;
+}
+
+.index-container article{
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 1em; */
+    padding: 1em;
+}
