@@ -117,6 +117,93 @@ main {
     /* height: 2.5em; */
 }
 
+.contato-form {
+    width: 60em;
+    height: 31em;
+    background-color: #f1f1f1;
+    border-radius: 17.8px;
+    /* cursor: pointer; */
+}
+form h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+form p {
+    padding: 0.5em 0em;
+    font-weight: 350;
+}
 
+
+form {
+    padding: 3em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+form textarea {
+    resize: none;
+    height: 8.5em;
+}
+form button {
+    width: 7em;
+    border-radius: 51px;
+    padding: 0.7em;
+    background-color: #0066cc;
+    border: none;
+    color: #F8F8F8;
+    cursor: pointer;
+}
+
+.form-card{
+    display: flex;
+    flex-direction: column;
+    font-weight: 350;
+    justify-content: center;
+    /* align-items: center; */
+}
+form input:focus, form textarea:focus {
+
+    border: 2px solid #0066cc;
+    outline: none;
+    /* box-shadow: 0 0 5px rgba(0, 102, 204, 0.5); */
+}
+/* input placeholder:focus {
+    font-size: small;
+} */
+form input{
+    height: 3em;
+}
+
+
+form input, form textarea {
+    width: 30em;
+    /* height: 3em; */
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+    /* transform: ; */
+    transition: border-size 1.3s ease;
+    /* justify-content: center; */
+}
+
+
+
+
+
+/* .contato-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60em;
+    height: 100%;
+    padding: 2em 0em;
+} */
 
 
