@@ -10,9 +10,21 @@ header{
 header img{
     width: 20em;
 }
+body{
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    height: auto;
+}
+aside {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    width: 13em;
+}
+
 .index {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .faq-container {
@@ -41,15 +53,21 @@ header img{
     font-size: 1.2em;
     color: #666;
 }
+.faq-resposta {
+    display: none;
+}
+.faq-container {
+    gap: 1em;
+}
 .faq-categoria {
     display: flex;
     flex-direction: column;
     width: 40em;
-    padding: 2em 0;
+    padding: 2em 4em;
     background-color: #f1f1f1;
     border-radius: 17.8px;
     gap: 1em;
 }
-.faq-resposta {
-    display: none;
+.faq-categoria h2 {
+    font-size: 3em;
 }

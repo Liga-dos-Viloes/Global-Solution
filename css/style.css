@@ -51,7 +51,7 @@ aside {
     gap: 1em;
     /* justify-content: space-around; */
     padding: 1em;
-    height: 100vh;
+    /* height: 100vh; */
 }
 aside a {
     text-decoration: none;
