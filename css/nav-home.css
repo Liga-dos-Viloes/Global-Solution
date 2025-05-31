@@ -4,8 +4,8 @@
 
 .nav-container {
     background-color: #ffffff;
-    position: fixed;
-    /* z-index: 1000; */
+    /* position: fixed; */
+    z-index: 1000;
     /* background-color: transparent;  */
     width: 100%;
     padding: 0.2em 3em;
@@ -13,7 +13,8 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 #selecionado{
-    opacity: 1;
+    font-weight: 400;
+    opacity: 0.6;
 }
 
 /* Aplicamos o Flexbox e o alinhamento vertical diretamente ao link .home-nav */
