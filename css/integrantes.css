@@ -110,3 +110,40 @@ footer {
     border-radius: 17.8px;
 }
 
+#teste1 {
+    padding: 0;
+    flex-direction: column-reverse;
+    width: 15.15em;
+    height: 31em;
+    justify-content: space-between;
+}
+#teste1 .card-content{
+    padding: 1em;
+}
+
+
+#lele {
+    flex-direction: column;
+    width: 15.15em;
+    padding: 0;
+    height: 31em;
+    justify-content: space-between;
+}
+#lele .card-content{
+    padding: 1em;
+    text-align: end;
+}
+
+
+.componentes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.text {
+    padding: 6em 3em;
+    width: 50em;
+    text-align: center;
+}
