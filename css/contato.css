@@ -13,12 +13,13 @@ header img{
 
 main {
     width: 100%;
-    min-height: 100vh;
-    padding: 1em 8em;
+    height: 100vh;
+    height: 100%;
+    padding: 4em 8em;
     display: block;
 }
 .contato-container {
-    min-height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */

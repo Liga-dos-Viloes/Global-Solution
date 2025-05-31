@@ -29,10 +29,9 @@ footer {
 } 
 
 .footer-links ul {
-    /* display: flex;
-    flex-direction: column; */
-    /* font-size: 0.8em; */
-    /* justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
     list-style: none;
     font-weight: 350;
     opacity: 0.8;
@@ -40,13 +39,14 @@ footer {
 }
 .footer-links li {
     justify-content: space-between;
+    /* gap: 1em; */
 }
 
 .footer-links li a{
     text-decoration: none;
     font-size: 0.8em;
     color: #000;
-    
+    /* gap: 0.5em; */
     ;
     /* margin: 0.5em 0; */
 }
