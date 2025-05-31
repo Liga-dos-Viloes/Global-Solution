@@ -1,10 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    font-family: "Cascadia Mono", sans-serif;
+    font-family: "Inter", sans-serif;
+
 }
 
+main {
+    height: 100vh;
+    display: flex;
+}
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #1f1f1f;
+    /* margin-bottom: 0.5em; */
+    text-align: start;
+}
+#h2{
+    text-align: end;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    padding: 3em 5em;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+header img{
+    align-self: center;
+    width: 30em;
+}
+header p {
+    font-size: 1.2em;
+    color: #1f1f1f;
+    opacity: 0.8;
+    text-align: center;
+    /* margin-top: 0.5em; */
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* justify-content: space-around; */
+    padding: 1em;
+    height: 100vh;
+}
+aside a {
+    text-decoration: none;
+    color: #1f1f1f;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+aside a:hover {
+    opacity: 1;
+}
+
+.index-container article{
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 1em; */
+    padding: 1em;
+}

@@ -4,13 +4,18 @@
 
 .nav-container {
     background-color: #ffffff;
+    /* position: fixed; */
+    z-index: 1000;
     /* background-color: transparent;  */
     width: 100%;
     padding: 0.2em 3em;
     /* padding: .5em 0.8em; */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-
+#selecionado{
+    font-weight: 400;
+    opacity: 0.6;
+}
 
 /* Aplicamos o Flexbox e o alinhamento vertical diretamente ao link .home-nav */
 .home-nav {
@@ -23,11 +28,10 @@
 #icon {
     width: 2em;
 }
-#aba {
+#index {
     transition: opacity 0.3s ease;
     opacity: 0.9;
 }
-
 
 .nav-container ul {
     display: flex;
@@ -47,7 +51,7 @@
     /* transition: background-color 0.3s ease, color 0.3s ease; */
     border-bottom: 2px solid transparent;
 }
-#aba:hover{
+#index:hover{
     opacity: 1;
 }
 
