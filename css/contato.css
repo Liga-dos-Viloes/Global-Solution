@@ -13,15 +13,18 @@ header img{
 
 main {
     width: 100%;
+    min-height: 100vh;
     padding: 1em 8em;
     display: block;
 }
 .contato-container {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    /* gap: 1em; */
+    justify-content: space-around;
+    gap: 1em;
 }
 .contato-container a:hover {
     text-decoration: underline;
@@ -36,7 +39,7 @@ main {
     height: 15em;
     /* gap: 2em; */
     /* gap: 0.5em; */
-    /* padding: 2.5em; */
+    /* padding: 1em 0em; */
     background-color: #f1f1f1;
     border-radius: 17.8px;
     /* justify-content: space-between; */
