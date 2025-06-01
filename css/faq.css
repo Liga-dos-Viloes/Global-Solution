@@ -6,20 +6,35 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 header img{
     width: 20em;
 }
 body{
     min-height: 100vh;
+    /* height: 100vh; */
 }
 main {
+    padding: 1em 0;
     display: flex;
-    height: auto;
+    height: 100%;
 }
 aside {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
-    width: 13em;
+    margin-left: 2em;
+    position: sticky;
+    top: 3em;
+    align-self: flex-start;
+    z-index: 999;
+    /* height: auto; */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
+    padding: 1em;
+    background-color: #ffffff;
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    /* flex-shrink: 0; */
+}
+footer {
+    background-color: #f1f1f1;
 }
 
 .index {
@@ -53,16 +68,14 @@ aside {
     font-size: 1.2em;
     color: #666;
 }
-.faq-resposta {
-    display: flex;
+/* .faq-resposta {
+    display: none;
     background-color: #fff;
     padding: 1em 2em;
-    /* border: 1px solid #0066cc; */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease-in-out;
-    /* transition: none; */
     border-radius: 0 17.8px 17.8px 17.8px;
-}
+} */
 .faq-container {
     gap: 1em;
 }
@@ -78,9 +91,43 @@ aside {
 .faq-categoria h2 {
     font-size: 3em;
 }
+.faq-pergunta:hover {
+    text-decoration: underline;
+}
+
 .faq-item h3{
     cursor: pointer;
     font-size: 1.05em;
     font-weight: 500;
     /* padding: 0.5em; */
+}
+/* .ativo{
+    transition: all 0.3s ease-in-out;
+    display: flex;
+} */
+
+.faq-resposta {
+    background-color: #fff;
+    padding: 1em 2em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 0 17.8px 17.8px 17.8px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding-top: 0; 
+    padding-bottom: 0;
+    margin-top: 0; 
+    margin-bottom: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out, margin 0.3s ease-out;
+}
+
+.faq-resposta.ativo {
+    max-height: 500px;
+    opacity: 1;
+    padding: 1em 2em;
+    margin-top: 1em;
+}
+
+.faq-pergunta.ativo {
+    font-weight: 600;
 }
