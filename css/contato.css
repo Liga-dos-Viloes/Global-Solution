@@ -1,3 +1,16 @@
+:root {
+  --cor-fundo-principal: #f0f0f0;
+  --cor-fundo-secundario: #ffffff;
+  --cor-texto-principal: #1d1d1f;
+  --cor-texto-secundario: #666666;
+  --cor-acento: #0071e3;
+  --cor-hover: #0050b3;
+}
+footer {
+    background-color: var(--cor-fundo-principal);
+}
+
+
 header{
     font-size: 1em;
     font-weight: 800;

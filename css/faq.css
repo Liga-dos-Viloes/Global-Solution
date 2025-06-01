@@ -1,3 +1,14 @@
+:root {
+  --cor-fundo-principal: #f0f0f0;
+  --cor-fundo-secundario: #ffffff;
+  --cor-texto-principal: #1d1d1f;
+  --cor-texto-secundario: #666666;
+  --cor-acento: #0071e3;
+  --cor-hover: #0050b3;
+}
+
+
+
 header{
     font-size: 1em;
     font-weight: 800;
@@ -12,6 +23,7 @@ header img{
     width: 20em;
 }
 body{
+    background-color: var(--cor-fundo-principal);
     min-height: 100vh;
     /* height: 100vh; */
 }
@@ -29,12 +41,12 @@ aside {
     /* height: auto; */
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
     padding: 1em;
-    background-color: #ffffff;
+    background-color: var(--cor-fundo-principal);
     border-right: 1px solid rgba(0, 0, 0, 0.08);
     /* flex-shrink: 0; */
 }
 footer {
-    background-color: #f1f1f1;
+    background-color: var(--cor-fundo-secundario);
 }
 
 .index {
@@ -84,10 +96,21 @@ footer {
     flex-direction: column;
     width: 40em;
     padding: 2em 4em;
-    background-color: #f1f1f1;
+    background-color: var(--cor-fundo-secundario);
     border-radius: 17.8px;
     gap: 1em;
 }
+.faq-categoria a{
+    color: var(--cor-acento);
+    text-decoration: none;
+}
+
+.faq-categoria a:hover {
+    color: var(--cor-hover);
+    text-decoration: underline;
+}
+
+
 .faq-categoria h2 {
     font-size: 3em;
 }
