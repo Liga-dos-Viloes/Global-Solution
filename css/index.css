@@ -39,16 +39,12 @@ article h2{
 .index-container {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* padding: 2em 5em; */
-    gap: 2em;
+    /* display: flex; */
+    /* gap: 1em; */
 }
 main {
     height: 100%;
-    padding: 2em 0;
+    padding: 1em 0;
 }
 aside {
     margin-left: 2em;
@@ -63,19 +59,62 @@ aside {
     border-right: 1px solid rgba(0, 0, 0, 0.08);
     /* flex-shrink: 0; */
 }
-
-
-
 article {
-    border-radius: 17.8px;
+    /* border-radius: 17.8px; */
     /* padding: 5em 5em; */
-    width: 40em;
+    /* width: 40em; */
+    border: 1px solid var(--cor-fundo-principal);
     background-color: var(--cor-fundo-secundario);
 }
+.informacao-container, .origem-container {
+    display: flex;
+    width: 50%;
+    height: 22em;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 7em;
+    text-align: center;
+    justify-content: end;
+}
 
+.topo{
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
 
+.AlertAI {
+    display: flex;
+    width: 100%;
+    height: 22em;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 7em;
+    text-align: center;
+    justify-content: start;
+    /* margin: 1em 0; */
+}
 
-/* .nav-container {
-    background-color: var(--cor-fundo-secundario);
-} */
+.card-container{
+    display: flex;
+    gap: 1em;
+}
 
+.card {
+    display: flex;
+    width: 50%;
+    height: 22em;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 7em;
+    text-align: center;
+    justify-content: end;
+}
+.solucao-container {
+    display: flex;
+    background-color: var(--cor-fundo-principal);
+    /* margin: 1em; */
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}

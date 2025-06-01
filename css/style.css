@@ -64,11 +64,9 @@ aside a {
 aside a:hover {
     opacity: 1;
 }
-
+/* 
 .index-container article{
-    /* display: flex;
-    flex-direction: column; */
-    /* gap: 1em; */
+
     padding: 1em;
 }
-
+ */
