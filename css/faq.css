@@ -54,7 +54,14 @@ aside {
     color: #666;
 }
 .faq-resposta {
-    display: none;
+    display: flex;
+    background-color: #fff;
+    padding: 1em 2em;
+    /* border: 1px solid #0066cc; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+    /* transition: none; */
+    border-radius: 0 17.8px 17.8px 17.8px;
 }
 .faq-container {
     gap: 1em;
@@ -70,4 +77,10 @@ aside {
 }
 .faq-categoria h2 {
     font-size: 3em;
+}
+.faq-item h3{
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: 500;
+    /* padding: 0.5em; */
 }
