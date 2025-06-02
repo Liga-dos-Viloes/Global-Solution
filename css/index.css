@@ -76,6 +76,10 @@ article {
     text-align: center;
     justify-content: end;
 }
+.informacao-container {
+    background: url('/img/kaiky.png') no-repeat center center / cover;
+}
+
 
 .topo{
     display: flex;
@@ -92,7 +96,7 @@ article {
     padding: 1em 7em;
     text-align: center;
     justify-content: start;
-    /* margin: 1em 0; */
+    /* margin: 0em 1em 0em 1em; */
 }
 
 .card-container{
