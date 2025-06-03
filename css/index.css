@@ -76,9 +76,6 @@ article {
     text-align: center;
     justify-content: end;
 }
-.informacao-container {
-    background: url('/img/kaiky.png') no-repeat center center / cover;
-}
 
 
 .topo{
@@ -112,7 +109,7 @@ article {
     gap: 1em;
     padding: 1em 7em;
     text-align: center;
-    justify-content: end;
+    justify-content: start;
 }
 .solucao-container {
     display: flex;
@@ -121,4 +118,76 @@ article {
     flex-direction: column;
     padding: 1em;
     gap: 1em;
+}
+
+.informacao-container {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), 
+                    url('/img/desafio-comu.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+.origem-container {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), 
+                    url('/img/nossa-missao.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.AlertAI {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), 
+                    url('/img/card-alerta.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.topo h2, p {
+    color: var(--cor-fundo-principal);
+}
+
+.AlertAI h2 {
+    color: var(--cor-fundo-secundario);
+    
+}
+
+#ia-card {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
+                    url('/img/analise-card.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#chat-card {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
+                    url('/img/chat-card.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#report-card {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
+                    url('/img/report-card.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#alerta-card {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
+                    url('/img/alerta-card.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card h2 {
+    color: var(--cor-fundo-secundario);
 }
