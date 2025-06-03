@@ -121,7 +121,7 @@ article {
 }
 
 .informacao-container {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), 
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), 
                     url('/img/desafio-comu.jpg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -131,7 +131,7 @@ article {
 
 
 .origem-container {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), 
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), 
                     url('/img/nossa-missao.jpg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -140,7 +140,7 @@ article {
 
 
 .AlertAI {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
                     url('/img/card-alerta.jpg');
   background-repeat: no-repeat;
   background-position: center center;
