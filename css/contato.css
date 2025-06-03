@@ -1,3 +1,16 @@
+:root {
+  --cor-fundo-principal: #f0f0f0;
+  --cor-fundo-secundario: #ffffff;
+  --cor-texto-principal: #1d1d1f;
+  --cor-texto-secundario: #666666;
+  --cor-acento: #0071e3;
+  --cor-hover: #0050b3;
+}
+footer {
+    background-color: var(--cor-fundo-principal);
+}
+
+
 header{
     font-size: 1em;
     font-weight: 800;
@@ -13,15 +26,19 @@ header img{
 
 main {
     width: 100%;
-    padding: 1em 8em;
+    height: 100vh;
+    height: 100%;
+    padding: 4em 8em;
     display: block;
 }
 .contato-container {
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    /* gap: 1em; */
+    justify-content: space-around;
+    gap: 1em;
 }
 .contato-container a:hover {
     text-decoration: underline;
@@ -36,7 +53,7 @@ main {
     height: 15em;
     /* gap: 2em; */
     /* gap: 0.5em; */
-    /* padding: 2.5em; */
+    /* padding: 1em 0em; */
     background-color: #f1f1f1;
     border-radius: 17.8px;
     /* justify-content: space-between; */
@@ -117,6 +134,93 @@ main {
     /* height: 2.5em; */
 }
 
+.contato-form {
+    width: 60em;
+    height: 31em;
+    background-color: #f1f1f1;
+    border-radius: 17.8px;
+    /* cursor: pointer; */
+}
+form h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+form p {
+    padding: 0.5em 0em;
+    font-weight: 350;
+}
 
+
+form {
+    padding: 3em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+form textarea {
+    resize: none;
+    height: 8.5em;
+}
+form button {
+    width: 7em;
+    border-radius: 51px;
+    padding: 0.7em;
+    background-color: #0066cc;
+    border: none;
+    color: #F8F8F8;
+    cursor: pointer;
+}
+
+.form-card{
+    display: flex;
+    flex-direction: column;
+    font-weight: 350;
+    justify-content: center;
+    /* align-items: center; */
+}
+form input:focus, form textarea:focus {
+
+    border: 2px solid #0066cc;
+    outline: none;
+    /* box-shadow: 0 0 5px rgba(0, 102, 204, 0.5); */
+}
+/* input placeholder:focus {
+    font-size: small;
+} */
+form input{
+    height: 3em;
+}
+
+
+form input, form textarea {
+    width: 30em;
+    /* height: 3em; */
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+    /* transform: ; */
+    transition: border-size 1.3s ease;
+    /* justify-content: center; */
+}
+
+
+
+
+
+/* .contato-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60em;
+    height: 100%;
+    padding: 2em 0em;
+} */
 
 

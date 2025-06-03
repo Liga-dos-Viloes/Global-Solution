@@ -8,6 +8,8 @@
 
 }
 
+
+
 main {
     height: 100vh;
     display: flex;
@@ -51,7 +53,7 @@ aside {
     gap: 1em;
     /* justify-content: space-around; */
     padding: 1em;
-    height: 100vh;
+    /* height: 100vh; */
 }
 aside a {
     text-decoration: none;
@@ -62,10 +64,9 @@ aside a {
 aside a:hover {
     opacity: 1;
 }
-
+/* 
 .index-container article{
-    /* display: flex;
-    flex-direction: column; */
-    /* gap: 1em; */
+
     padding: 1em;
 }
+ */
