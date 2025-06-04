@@ -15,6 +15,20 @@ main {
     display: block;
     background-color: var(--cor-fundo-principal);
 }
+header{
+    font-size: 1.2em;
+    font-weight: 800;
+    padding: 10em 35em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+header img{
+    width: 20em;
+}
+
 .info-container {
     /* height: 100vh; */
     display: flex;
