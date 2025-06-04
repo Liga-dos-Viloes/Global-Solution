@@ -1,9 +1,19 @@
+:root {
+  --cor-fundo-principal: #f0f0f0;
+  --cor-fundo-secundario: #ffffff;
+  --cor-texto-principal: #1d1d1f;
+  --cor-texto-secundario: #666666;
+  --cor-acento: #0071e3;
+  --cor-hover: #0050b3;
+}
+
 main {
     width: 100%;
     height: 100vh;
     height: 100%;
     padding: 4em 8em;
     display: block;
+    background-color: var(--cor-fundo-principal);
 }
 .info-container {
     /* height: 100vh; */
@@ -28,7 +38,7 @@ main {
     /* gap: 2em; */
     /* gap: 0.5em; */
     /* padding: 1em 0em; */
-    background-color: #f1f1f1;
+    background-color: var(--cor-fundo-secundario);
     border-radius: 17.8px;
     /* justify-content: space-between; */
 }
@@ -73,7 +83,7 @@ main {
     flex-direction: column;
     justify-content: center;
     justify-content: space-around;
-    background-color: #f1f1f1;
+    background-color: var(--cor-fundo-secundario);
     border-radius: 17.8px;
     font-weight: 350;
     
