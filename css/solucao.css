@@ -1,0 +1,133 @@
+:root {
+  --cor-fundo-principal: #f0f0f0;
+  --cor-fundo-secundario: #ffffff;
+  --cor-texto-principal: #1d1d1f;
+  --cor-texto-secundario: #666666;
+  --cor-acento: #0071e3;
+  --cor-hover: #0050b3;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    height: 100%;
+    padding: 4em 8em;
+    display: block;
+    background-color: var(--cor-fundo-principal);
+}
+header{
+    font-size: 1.2em;
+    font-weight: 800;
+    padding: 10em 35em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+header img{
+    width: 20em;
+}
+
+.info-container {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+.info-container a:hover {
+    text-decoration: underline;
+}
+
+.card-1 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    width: 57em;
+    height: 25em;
+    /* gap: 2em; */
+    /* gap: 0.5em; */
+    /* padding: 1em 0em; */
+    background-color: var(--cor-fundo-secundario);
+    border-radius: 17.8px;
+    /* justify-content: space-between; */
+}
+.card-1 a{
+    text-decoration: none;
+    color: #0066cc;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 3em;
+    height: 100%;
+    justify-content: center;
+    align-self: center;
+    justify-content: space-around;
+    font-weight: 350;
+}
+.content h2 {
+    font-size: 1.5rem;
+
+}
+
+
+.cards-container {
+    width: 57em;
+    padding: 1em 0em;
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 17.8px; */
+}
+
+.cards {
+    padding: 0.8em 2.5em;
+    width: 27em;
+    height: 27em;
+    /* gap: 0.5em; */
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: var(--cor-fundo-secundario);
+    border-radius: 17.8px;
+    font-weight: 350;
+    
+}
+/* #dev {
+    padding: 0em 2.5em
+} */
+
+
+.cards img {
+    /* justify-content: start; */
+    align-items: start;
+    width: 5em;
+}
+.cards h3{
+    font-weight: 700;
+}
+
+
+.cards a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.icon img{
+    height: 100%;
+    /* padding-right: 1em; */
+    
+    border-radius: 0 17.8px 17.8px 0;
+    /* height: 2.5em; */
+}
