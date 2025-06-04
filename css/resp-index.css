@@ -1,0 +1,76 @@
+/* ▪ Extra Small devices (phones, 600px and down): @media (max-width: 600px) {...}
+▪ Small devices (portrait tablets and large phones, 600px and up): @media (min-width: 600px) {...}
+▪ Medium devices (landscape tablets, 768px and up): @media (min-width: 768px) {...}
+▪ Large devices (laptops/desktops, 992px and up): @media (min-width: 992px) {...}
+▪ Extra-Large devices (large laptops and desktops, 1300px and up): @media (min-width: 1300px) {...} */
+
+nav ul.mobile {
+    /* z-index: 1000; */
+    display: none;
+    /* flex-direction: column; */
+    background-color: #fff;
+    padding: 1em;
+}
+
+
+
+
+@media (max-width: 1300px) {
+    header {
+        padding: 3em 25em;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        padding: 3em 15em;
+    }
+    header h1 {
+        font-size: 2.5em;
+    }
+    .informacao-container,#origem, .AlertAI, .card{
+        padding: 1em 1em;
+    }
+    main h2{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 3em 10em;
+    }
+    header h1 {
+        font-size: 2.2em;
+    }
+    .informacao-container,#origem, .AlertAI, .card{
+        padding: 1em 0.5em;
+    }
+    main h2{
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 3em 5em;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    .informacao-container,#origem, .AlertAI, .card{
+        padding: 1em 0.5em;
+    }
+    main h2{
+        font-size: 1.6em;
+    }
+    
+    .menu-pc{
+        display: none;
+    }
+    
+
+}
