@@ -31,6 +31,7 @@ main {
     padding: 1em 0;
     display: flex;
     height: 100%;
+    
 }
 aside {
     margin-left: 2em;
@@ -153,4 +154,71 @@ footer {
 
 .faq-pergunta.ativo {
     font-weight: 600;
+}
+/* ▪ Extra Small devices (phones, 600px and down): @media (max-width: 600px) {...}
+▪ Small devices (portrait tablets and large phones, 600px and up): @media (min-width: 600px) {...}
+▪ Medium devices (landscape tablets, 768px and up): @media (min-width: 768px) {...}
+▪ Large devices (laptops/desktops, 992px and up): @media (min-width: 992px) {...}
+▪ Extra-Large devices (large laptops and desktops, 1300px and up): @media (min-width: 1300px) {...} */
+
+
+
+
+
+@media (max-width:1300px) {
+    header {
+        padding: 10em 25em;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        padding: 10em 5em;
+    }
+    header img {
+        width: 15em;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+    aside {
+        display: none;
+    }
+    .head{
+        width: 100%;
+    }
+    .faq-categoria {
+        width: 30em;
+    }
+}
+
+@media (max-width:600px) {
+    .head {
+        padding: 2em 4em;
+    }
+
+    .faq-categoria {
+        width: 25em;
+    }
+    .faq-categoria h2{
+        font-size: 2em;
+    }
+}
+
+@media (max-width:425px) {
+    .faq-categoria {
+        width: 20em;
+    }
+    .faq-categoria h2{
+        font-size: 1.5em;
+    }
+    .faq-categoria h3 {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:375px) {
+    header {
+        padding: 5em 0em;
+    }
 }
