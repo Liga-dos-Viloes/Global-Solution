@@ -77,3 +77,9 @@ footer {
 .footer-copy img {
     width: 3em;
 }
+
+@media (max-width:600px) {
+    footer {
+        padding: 0.5em 0em;
+    }
+}
