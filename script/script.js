@@ -20,3 +20,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    function toggleMobileMenu() {
+        navLinks.classList.toggle('open'); 
+
+    }
+    if (menuToggle) {
+        menuToggle.addEventListener('click', toggleMobileMenu);
+    }
+
+});

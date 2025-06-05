@@ -8,14 +8,40 @@
     <link rel="stylesheet" href="css/nav-home.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/resp-index.css">
 </head>
 <body>
-    <nav class="nav-container">
-        <button class="menu-toggle" id="menuToggle">☰</button>
-        <ul>
+    <nav class="cell-nav">
+        <div class="topo-mobile">
+            <span class="menu-toggle" id="menuToggle">☰</span>
+        <a class="home-nav" id="index"  href="index.html">
+                    <img id="icon" src="img/AlertaAI-icon-bgpng.png" alt="Logo do AlertAI">
+                    AlertAI
+                </a>
+                <a href="https://github.com/Liga-dos-Viloes/Global-Solution" target="_blank"><img src="img/nos.png" alt="foto dos 3 integrantes"></a>
+        </div>   
+        <ul class="mobile" id="navLinks">
             <li>
+                
+            </li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="solucao.html">Aplicação</a></li>
+        </ul>
+    </nav>
+    <nav class="nav-container">
+        <!-- <span class="menu-toggle" id="menuToggle">☰</span>
+        <ul class="mobile" id="navLinks">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul> -->
+        <ul class="menu-pc">
+            <li class="pc">
                 <a class="home-nav" id="index"  href="index.html">
-                    <img id="icon" src="img/AlertaAI-icon-bgpng.png" alt="">
+                    <img id="icon" src="img/AlertaAI-icon-bgpng.png" alt="Logo do AlertAI">
                     AlertAI
                 </a>
             </li>
@@ -31,7 +57,7 @@
         <!-- <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, velit doloribus laborum at, quia quod vitae explicabo odit cum dicta ipsam doloremque ut iusto ullam accusamus sapiente. Corrupti, beatae unde?
         </p> -->
-        <img src="img/AlertaAI-icon-bgpng.png" alt="">
+        <img src="img/AlertaAI-icon-bgpng.png" alt="Logo do AlertAI">
         <h1 id="h2">na palma da sua mão</h1>
     </header>
     <main>
@@ -55,7 +81,7 @@
                 <h2>
                     Nossa Missão
                 </h2>
-                <p>Percebemos que, em meio ao caos de um desastre, a informação mais valiosa muitas vezes está nas mãos de quem vive a situação.</p>
+                <p>A informação mais valiosa muitas vezes está nas mãos de quem vive a situação.</p>
             </article>
             </div>
             <article id="AlertaAI" class="AlertAI">
@@ -65,32 +91,32 @@
                 <p>
                     O AlertAI é um protótipo de aplicativo/plataforma web desenvolvido para otimizar a comunicação em situações de emergência e desastres naturais.
                 </p>
-                <div class="app">
+                <!-- <div class="app">
                     <img src="" alt="">                   
-                </div>
+                </div> -->
             </article>
             </article>
-            <article class="solucao-container">
+            <article id="AlertAI" class="solucao-container">
                 <div class="card-container">
                     <article id="ia-card" class="card">
-                        <img src="" alt="">
+                        <!-- <img src="" alt=""> -->
                         <h2>Análise por IA</h2>
                         <p>Nossa inteligência artificial processa dados em tempo rea, priorizando respostas de forma eficiente.</p>
                     </article>
                     <article id="chat-card" class="card">
-                        <img src="" alt="">
+                        <!-- <img src="" alt=""> -->
                         <h2>Chatbot de Apoio</h2>
                         <p>disponível 24 horas por dia para orientações sobre segurança e emergências.</p>
                     </article>
                 </div>
                 <div class="card-container">
                     <article id="report-card" class="card">
-                        <img src="" alt="">
+                        <!-- <img src="" alt=""> -->
                         <h2>Reportes Inteligentes</h2>
                         <p>Cidadãos podem enviar informações detalhadas, incluindo fotos e localização em segundos.</p>
                     </article>
                     <article id="alerta-card" class="card">
-                        <img src="" alt="">
+                        <!-- <img src="" alt=""> -->
                         <h2>Alertas Personalizados</h2>
                         <p>Receba avisos de emergência relevantes diretamente para sua área, garantindo que você esteja sempre um passo à frente.</p>
                     </article>
@@ -108,7 +134,7 @@
                     <li><a href="#AlertAI">AlertAI</a></li>
                 </ul>
                 <ul>
-                    <li><a id="topic" href="">Contato</a></li>
+                    <li><a id="topic" href="contato.html">Contato</a></li>
                     <li><a href="contato.html#equipe">Entre em contato</a></li>
                     <li><a href="contato.html#form">Feedback</a></li>
                 </ul>
@@ -120,10 +146,10 @@
         </div>
         <div class="footer-copy">
             <p>© Copyright 2025, Todos Direitos Reservados</p>
-            <a href="https://github.com/Liga-dos-Viloes/Challenge" target="_blank"><img src="img/AlertaAI-icon-bgpng.png" alt="foto dos 3 integrantes"></a>
+            <a href="https://github.com/Liga-dos-Viloes/Global-Solution" target="_blank"><img src="img/AlertaAI-icon-bgpng.png" alt="foto dos 3 integrantes"></a>
         </div>
         </div>
     </footer>
-    <script src="scripts/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

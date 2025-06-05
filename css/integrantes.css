@@ -61,7 +61,7 @@ footer {
 -moz-box-shadow: 0px 1px 51px 2px rgba(0,0,0,0.21); */
     background-color: #fff;
     border-radius: 17.8px;
-    width: 50em;
+    width: 80%;
     /* border-top: 5px solid #e6e6e6; */
     display: flex;
     /* flex-direction: column; */
@@ -109,4 +109,80 @@ footer {
     width: 15em;
     border-radius: 17.8px;
 }
+/* ▪ Extra Small devices (phones, 600px and down): @media (max-width: 600px) {...}
+▪ Small devices (portrait tablets and large phones, 600px and up): @media (min-width: 600px) {...}
+▪ Medium devices (landscape tablets, 768px and up): @media (min-width: 768px) {...}
+▪ Large devices (laptops/desktops, 992px and up): @media (min-width: 992px) {...}
+▪ Extra-Large devices (large laptops and desktops, 1300px and up): @media (min-width: 1300px) {...} */
 
+
+
+
+@media (max-width: 1300px) {
+    .integrantes-container{
+        width: 100%;
+        padding: 1em 6em;
+    }
+}
+
+@media (max-width: 992px) {
+    /* header {
+        padding: 2em 3.5em;
+    } */
+    .integrantes-container{
+        padding: 1em 5em;
+    }
+    .card-content i {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .integrantes-container{
+        padding: 1em 3em;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+    .card-img {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cards .social{
+        justify-content: center;
+    }
+
+    #solem {
+        flex-direction: column-reverse;
+    }
+    .integrantes-container{
+        padding: 1em 2em;
+    }
+}
+@media (max-width: 480px) {
+    .card-img img{
+        width: 10em;
+    }
+    .head {
+        width: 100%;
+    }
+
+    .head h2{
+        font-size: 1.5rem;
+    }
+    .head p{
+        font-size: 1em;
+    }
+    .integrantes-container{
+        padding: 1em 0em;
+    }
+    header img{
+        width: 25em;
+    }
+}

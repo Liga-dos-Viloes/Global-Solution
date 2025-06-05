@@ -209,18 +209,164 @@ form input, form textarea {
     /* justify-content: center; */
 }
 
+/* ▪ Extra Small devices (phones, 600px and down): @media (max-width: 600px) {...}
+▪ Small devices (portrait tablets and large phones, 600px and up): @media (min-width: 600px) {...}
+▪ Medium devices (landscape tablets, 768px and up): @media (min-width: 768px) {...}
+▪ Large devices (laptops/desktops, 992px and up): @media (min-width: 992px) {...}
+▪ Extra-Large devices (large laptops and desktops, 1300px and up): @media (min-width: 1300px) {...} */
 
+@media (max-width:1300px) {
+    header {
+        padding: 8em 15em;
+    }
+}
+@media (max-width:992px) {
+    header {
+        padding: 5em 10em;
+    }
 
+    .contato-container{
+        width: 100%;
+    }
 
+    main {
+        padding: 2em 0em;
+    }
 
-/* .contato-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60em;
-    height: 100%;
-    padding: 2em 0em;
-} */
+    .card-1{
+        width: 50em;
+    }
 
+    .cards-container{
+        width: 50em;
+    }
 
+    .cards{
+        width: 14em;
+    }
+    .contato-form {
+        width: 50em;
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        padding: 2em 5em;
+    }
+
+    header h1 {
+        font-size: 1.7em;
+    }
+    .card-1{
+        width: 35em;
+    }
+
+    .cards-container{
+        width: 35em;
+    }
+
+    .cards{
+        width: 10em;
+        padding: 0.5em 1.5em;
+        /* height: 100%; */
+    }
+    .cards img {
+        width: 2.5em;
+    }
+    .contato-form {
+        width: 35em;
+    }
+    
+}
+@media (max-width:600px) {
+    header {
+        padding: 1em 2.5em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+    .card-1{
+        width: 28em;
+    }
+    .icon {
+        display: none;
+    }
+
+    .cards-container{
+        width: 28em;
+    }
+
+    .cards{
+        width: 10em;
+        padding: 0.5em 1.5em;
+        /* height: 100%; */
+    }
+    .cards img {
+        width: 2.5em;
+    }
+    .contato-form {
+        width: 28em;
+    }
+
+    form input, form textarea{
+        width: 20em;
+    }
+    
+}
+
+@media (max-width: 425px){
+     header {
+        padding: 1em 2.5em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+    .card-1{
+        width: 23em;
+    }
+    .icon {
+        display: none;
+    }
+
+    .cards-container{
+        width: 23em;
+    }
+    .content {
+        /* width: ; */
+        padding: 1.5em 1.5em;
+    }
+
+    .cards{
+        width: 10em;
+        padding: 0.5em 0.5em;
+        /* font-size: em; */
+        /* height: 100%; */
+    }
+    #hm {
+        display: none;
+    }
+/* 
+    .cards img {
+        display: none;
+    } */
+}
+
+@media (max-width: 375px) {
+    header {
+        padding: 1em 0em;
+    }
+
+    header img{
+        width: 13em;
+    }
+    
+    form input, form textarea{
+        width: 20em;
+    }
+
+    .contato-form {
+        width: 23em;
+    }
+}
