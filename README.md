@@ -40,16 +40,16 @@ Global-Solution-main/
 │   ├── analise-card.png
 │   ├── app.png
 │   └── (e outros)
-└── README.md                # Este arquivo
+└── README.md               
 ```
 
 ---
 
 ## 👥 Integrantes
 
-- Kaiky Souza  
-- Leandro Guarido de Oliveira  
-- Gabriel Solano  
+- Kaiky Pereira Rodrigues Da Silva, RM: 564578
+- Leandro Guarido de Oliveira, RM: 561760
+- Gabriel Solano, RM: 562325
 
 ---
 
