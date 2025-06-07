@@ -188,6 +188,8 @@ article {
   background-size: cover;
 }
 
+/* #alerta-card */
+
 .card h2 {
     color: var(--cor-fundo-secundario);
 }
