@@ -122,7 +122,7 @@ article {
 
 .informacao-container {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), 
-                    url('/img/desafio-comu.jpg');
+                    url('../img/desafio-comu.JPG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -132,7 +132,7 @@ article {
 
 .origem-container {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), 
-                    url('/img/nossa-missao.jpg');
+                    url('../img/nossa-missao.JPG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -141,7 +141,7 @@ article {
 
 .AlertAI {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
-                    url('/img/card-alerta.jpg');
+                    url('../img/card-alerta.JPG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -158,7 +158,7 @@ article {
 
 #ia-card {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
-                    url('../img/analise-card.png');
+                    url('../img/analise-card.PNG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -166,7 +166,7 @@ article {
 
 #chat-card {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
-                    url('../img/chat-card.png');
+                    url('../img/chat-card.PNG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -174,7 +174,7 @@ article {
 
 #report-card {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
-                    url('../img/report-card.png');
+                    url('../img/report-card.PNG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -182,7 +182,7 @@ article {
 
 #alerta-card {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), 
-                    url('../img/alerta-card.png');
+                    url('../img/alerta-card.PNG');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
